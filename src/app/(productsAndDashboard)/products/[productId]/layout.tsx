@@ -1,6 +1,5 @@
-import React from 'react'
 
-const layout = ( {children}:
+const ProductLayout = ( {children}:
 {
   children: React.ReactNode;
 }
@@ -13,4 +12,4 @@ const layout = ( {children}:
   )
 }
 
-export default layout
+export default ProductLayout
