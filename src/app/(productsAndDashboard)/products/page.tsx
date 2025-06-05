@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 const products = () => {
-  const productId='123'
+  const productId=Math.floor(Math.random() * 100) + 1; // Random product ID between 1 and 100
   return (
     <>
     <Link href='/'>Home</Link>
