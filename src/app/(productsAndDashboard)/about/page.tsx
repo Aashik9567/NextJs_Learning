@@ -1,6 +1,8 @@
 import React from 'react'
 export const metadata = {
-  title: 'About Page',
+  title: {
+    absolute: 'About Page', // breaking away from parent title ovverrides the parent title
+  },
   description: 'This is the about page of the Next.js application.'
 }
 const page = () => {
