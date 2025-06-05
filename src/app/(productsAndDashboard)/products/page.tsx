@@ -5,7 +5,7 @@ const products = () => {
   return (
     <>
     <Link href='/'>Home</Link>
-    <div className='bg-fuchsia-300p-4'>
+    <div className='bg-fuchsia-300 p-4'>
       <h1>products list</h1>
       <ul className='flex flex-col space-y-2'>
         <li><Link href={`/products/1`}>Products No 1</Link></li>
