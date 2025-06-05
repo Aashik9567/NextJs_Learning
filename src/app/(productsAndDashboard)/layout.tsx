@@ -5,8 +5,7 @@ export default function productLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body>
+      <>
         <header className='bg-blue-500 text-white p-4'>
           <h1 className='text-center text-2xl'>Header</h1>
        </header>
@@ -17,7 +16,7 @@ export default function productLayout({
         <footer className='bg-gray-800 text-white p-4 mt-4'>
           <p className='text-center'>Footer</p>
         </footer>
-      </body>
-    </html>
+   </>
+ 
   )
 }
