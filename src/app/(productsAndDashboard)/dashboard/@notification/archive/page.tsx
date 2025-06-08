@@ -2,13 +2,13 @@ import { Card } from "@/app/components/card";
 //these are slots for the dashboard
 // import { Card } from "@/app/components/card";
 import Link from "next/link";
-export default function notification() {
+export default function ArchiveNotification() {
     return (
         <>
 
         <Card>
-      <div>  Notification Page</div>  </Card>
-      <Link href="/dashboard/archive">Archieved notification</Link>
+      <div> Archive Notification Page</div>  </Card>
+      <Link href="/dashboard">default</Link>
         </>
         
       

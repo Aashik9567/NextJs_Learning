@@ -2,7 +2,7 @@ import {Card} from '@/app/components/card';
 export default function users() {
     return (
         <Card>
-            User Dashboard
+           Default User Dashboard
         </Card>
     );
 }
