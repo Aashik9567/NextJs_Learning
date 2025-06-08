@@ -1,6 +1,6 @@
 "use client";
 
-const login = () => {
+const Login = () => {
   return (
     <div>
         <h1 className='text-3xl'>Login Page</h1>
@@ -20,4 +20,4 @@ const login = () => {
   )
 }
 
-export default login
+export default Login

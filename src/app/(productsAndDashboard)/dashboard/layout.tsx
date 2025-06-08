@@ -1,3 +1,4 @@
+import Login from "@/app/(auth)/login/page"
 export default function DashboardLayout({ children, notification, revenue, user }: {
     children: React.ReactNode,
     notification: React.ReactNode,
@@ -5,7 +6,8 @@ export default function DashboardLayout({ children, notification, revenue, user 
     user: React.ReactNode
 }
 ) {
-    return (
+    const isLoggedIn = false; // Replace with actual authentication logic
+    return isLoggedIn? (
         <>
             <div className="min-w-full ">{children}</div>
             <div className="flex gap-6 ">
@@ -20,5 +22,7 @@ export default function DashboardLayout({ children, notification, revenue, user 
 
 
         </>
+    ):(
+        <Login />
     )
 }
