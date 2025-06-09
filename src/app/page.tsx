@@ -9,6 +9,7 @@ export default function Home() {
           <li><Link  href="/counter">Counter</Link></li>
           <li><Link href="/blog">Blog</Link></li>
           <li><Link href="/products">Products</Link></li>
+          <li><Link href="/photo-feed">Photo Feed</Link></li>
         </ul>
        </nav>
       <div className="mt-8 space-x-4 flex flex-row items-center justify-center border-4 border-gray-600 p-4 rounded-lg">
